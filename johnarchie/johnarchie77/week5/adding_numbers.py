@@ -2,15 +2,14 @@ import sys
 
 
 def add_them_all(filename):
-    sum = 0
+    numbers = 0
 
-    with open("a.txt, b.txt, c.txt, d.txt, e.txt", "r") as f:
-        for line in f.readline():
+    with open("a.txt", "r"), open("b.txt", "r"),open("c.txt", "r"),open("d.txt", "r"),open("e.txt", "r") as Processing:
+        for line in Processing.readline():
          line = line.strip()
-        part = line.split(",")
-        sum.append({})
-    Processing = sum(sum)
-    print(Processing)
+        sum.append({Processing})
+    
+ 
 
     return sum
 
