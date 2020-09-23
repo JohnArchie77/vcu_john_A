@@ -4,7 +4,7 @@ import sys
 def add_them_all(filename):
     sum = 0
     
-    fname = open(filename, "r")
+    fname = open(filename, 'r')
 
     for line in fname:
         sum = sum +int(line)
