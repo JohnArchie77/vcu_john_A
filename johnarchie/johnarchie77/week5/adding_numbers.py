@@ -2,12 +2,12 @@ import sys
 
 
 def add_them_all(filename):
-    numbers = 0
+    sum = 0
 
-    with open("a.txt", "r"), open("b.txt", "r"),open("c.txt", "r"),open("d.txt", "r"),open("e.txt", "r") as Processing:
-        for line in Processing.readline():
+    with open("a.txt", "r") as a, open("b.txt", "r") as b,open("c.txt", "r") as c, open("d.txt", "r") as d, open("e.txt", "r") as e:
+        for line in fname.readline():
          line = line.strip()
-        sum.append({Processing})
+        sum.extend(a, b, c, d, e)
     
  
 
